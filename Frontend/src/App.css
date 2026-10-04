@@ -1,0 +1,17 @@
+body { margin: 0; background: #1e1f26; font-family: system-ui, sans-serif; color: #fff; }
+.app { display: flex; gap: 24px; justify-content: center; align-items: flex-start; padding: 40px 16px; flex-wrap: wrap; }
+.calculator { width: 300px; background: #2b2d38; padding: 16px; border-radius: 16px; }
+.expression { text-align: right; color: #8b8fa3; min-height: 20px; }
+.display { text-align: right; font-size: 40px; padding: 8px 4px 16px; overflow-x: auto; }
+.error { background: #5b2630; padding: 8px; border-radius: 8px; margin-bottom: 8px; font-size: 14px; }
+.keys { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.keys button { padding: 16px 0; font-size: 20px; border: none; border-radius: 10px; background: #3a3d4d; color: #fff; cursor: pointer; }
+.keys button:hover { background: #4a4e63; }
+.keys .op { background: #f59e0b; }
+.keys .clear { background: #ef4444; grid-column: span 4; }
+.keys .equals { background: #22c55e; }
+.history { width: 260px; background: #2b2d38; padding: 16px; border-radius: 16px; }
+.history h3 { margin-top: 0; }
+.history ul { list-style: none; padding: 0; margin: 0; }
+.history li { padding: 8px 0; border-bottom: 1px solid #3a3d4d; }
+.empty { color: #8b8fa3; }
